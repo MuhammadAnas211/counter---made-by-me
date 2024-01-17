@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter - Made by me..</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+      background-color: rgb(255,132,100);
+      background: linear-gradient(
+       90deg,
+       rgba(255,132,100,1) 0%,
+       rgba(253,105,165,1) 100%
+      );
+    }
+    #counter {
+      font-size: 2em;
+    }
+    button {
+      font-size: 1em;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      background-color: rgb(238, 44, 30);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Counter App</h1>
+  <div id="counter">0</div>
+  <button onclick="increment()">Increment</button>
+  <button onclick="reset()">Reset</button>
+  <button onclick="decrement()">Decrement</button>
+ <script src="app.mjs"></script>
+</body>
+</html>
